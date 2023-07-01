@@ -43,7 +43,7 @@ Installs Jupyter Notebooks and GPU version of [`pytorch`](https://github.com/pyt
 mamba env create -f https://raw.githubusercontent.com/scbirlab/envs/main/chemprop.yml --force
 ```
 
-### chemprop
+### dev
 
 Installs tools for developing Python packages and other software.
 
