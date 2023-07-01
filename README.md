@@ -63,7 +63,7 @@ Here are the help pages of the software installed in these environments.
 - [`rdkit`](https://rdkit.org/docs/RDKit_Book.html)
 - [`tensorflow`](https://www.tensorflow.org/)
 - [`jax`](https://jax.readthedocs.io/en/latest/#) 
-- ['pytorch`](https://pytorch.org/)
+- [`pytorch`](https://pytorch.org/)
 - [`chemprop`](https://chemprop.readthedocs.io/en/latest/)
 - [`monte-barcode`](https://monte-barcode.readthedocs.io/en/latest/)
 - [`ogilo-array`](https://ogilo.readthedocs.io/en/latest/)
