@@ -1,0 +1,31 @@
+name: dev
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - alabaster
+  - autoconf
+  - automake
+  - ca-certificates
+  - cmake
+  - gh
+  - git
+  - libgcc-ng
+  - libgfortran5
+  - libzlib
+  - ncurses
+  - openssl
+  - pip
+  - python=3.8
+  - setuptools
+  - wheel
+  - pip:
+      - coverage
+      - docutils
+      - myst-parser
+      - pytest
+      - pytest-cov
+      - sphinx
+      - sphinx-rtd-theme

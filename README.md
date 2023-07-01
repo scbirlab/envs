@@ -43,6 +43,14 @@ Installs Jupyter Notebooks and GPU version of [`pytorch`](https://github.com/pyt
 mamba env create -f https://raw.githubusercontent.com/scbirlab/envs/main/chemprop.yml --force
 ```
 
+### chemprop
+
+Installs tools for developing Python packages and other software.
+
+```{bash}
+mamba env create -f https://raw.githubusercontent.com/scbirlab/envs/main/dev.yml --force
+```
+
 ### oligo-design
 
 Installs [`monte-barcode`](https://github.com/scbirlab/monte-barcode) and [`ogilo-array`](https://github.com/scbirlab/ogilo) 
