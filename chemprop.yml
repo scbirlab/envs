@@ -1,0 +1,21 @@
+name: chemprop
+
+channels:
+    - pytorch
+    - nvidia
+
+dependencies:
+    - python
+    - pip
+    - libsodium
+    - jupyter
+    - jupyterlab
+    - ipykernel
+    - nb_conda_kernels
+    - openpyxl=3.1.0
+    - umap-learn
+    - ipython
+    - ipympl
+    - pytorch-cuda=11.7
+    - pip:
+        - chemprop

@@ -1,0 +1,11 @@
+name: oligo-design
+
+channels:
+    - conda-forge
+
+dependencies:
+    - python
+    - pip
+    - pip:
+        - monte-barcode
+        - ogilo-array
