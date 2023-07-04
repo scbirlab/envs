@@ -1,0 +1,16 @@
+name: website
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - gh
+  - git
+  - python
+  - pip
+  - pip:
+    - sphinx
+    - sphinx-book-theme
+    - myst-parser
+    - sphinx-design
