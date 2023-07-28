@@ -28,6 +28,7 @@ dependencies:
         - tensorrt
         - tensorflow==2.11.*
         - tensorflow-probability
+        - tensorflow_ranking
         - pymc
         - arviz
         - https://storage.googleapis.com/jax-releases/cuda11/jaxlib-0.4.7+cuda11.cudnn82-cp310-cp310-manylinux2014_x86_64.whl
