@@ -5,24 +5,25 @@ channels:
     - bioconda
 
 dependencies:
-    - python
+    - python=3.10
     - pip
     - libsodium
+    - ipykernel
+    - ipympl
+    - ipython
     - jupyter
     - jupyterlab
-    - ipykernel
+    - matplotlib 
     - nb_conda_kernels
     - numpy
-    - matplotlib 
-    - seaborn
-    - pandas
     - openpyxl=3.1.0
-    - scikit-learn
+    - pandas
     - patsy
-    - umap-learn
-    - ipython
-    - ipympl
     - rdkit
+    - seaborn    
+    - scikit-learn
+    - tqdm
+    - umap-learn  
     - pip:
         - nvidia-cudnn-cu11==8.6.0.163
         - tensorrt
@@ -31,5 +32,7 @@ dependencies:
         - tensorflow_ranking
         - pymc
         - arviz
+        - jax==0.4.7
         - https://storage.googleapis.com/jax-releases/cuda11/jaxlib-0.4.7+cuda11.cudnn82-cp310-cp310-manylinux2014_x86_64.whl
         - optax
+        - git+https://github.com/bp-kelley/descriptastorus
