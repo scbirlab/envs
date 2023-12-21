@@ -1,8 +1,8 @@
 name: chemprop
 
 channels:
-    - pytorch
-    - nvidia
+    - conda-forge
+    - bioconda
 
 dependencies:
     - python
@@ -11,11 +11,12 @@ dependencies:
     - jupyter
     - jupyterlab
     - ipykernel
-    - nb_conda_kernels
-    - openpyxl=3.1.0
-    - umap-learn
     - ipython
     - ipympl
-    - pytorch-cuda=11.7
+    - nb_conda_kernels
+    - openpyxl=3.1.0
     - pip:
         - chemprop
+        - nvidia-cudnn-cu12==8.9.2.26
+        - torch
+        - umap-learn
