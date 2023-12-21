@@ -1,0 +1,41 @@
+name: chem-llm
+
+channels:
+    - conda-forge
+    - bioconda
+
+dependencies:
+    - python=3.11
+    - pip
+    - ipykernel
+    - ipython
+    - datamol
+    - jupyter
+    - jupyterlab
+    - molfeat
+    - nb_conda_kernels
+    - openbabel
+    - openpyxl=3.1.0
+    - pip:
+        - chemprop
+        - datasets
+        - deepchem
+        - git+https://github.com/bp-kelley/descriptastorus
+        - flax
+        - huggingface_hub
+        - jax==0.4.23
+        - https://storage.googleapis.com/jax-releases/cuda12/jaxlib-0.4.23+cuda12.cudnn89-cp311-cp311-manylinux2014_x86_64.whl
+        - matplotlib
+        - numpy
+        - optax
+        - pandas
+        - rdkit
+        - safe-mol
+        - scikit-learn
+        - splito
+        - tensorrt
+        - tensorflow
+        - torch
+        - transformers
+        - tqdm
+        - umap-learn
