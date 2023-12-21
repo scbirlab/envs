@@ -1,8 +1,8 @@
 name: chemprop
 
 channels:
-    - pytorch
-    - nvidia
+    - conda-forge
+    - bioconda
 
 dependencies:
     - python
