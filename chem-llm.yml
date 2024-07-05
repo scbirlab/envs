@@ -17,6 +17,8 @@ dependencies:
     - openbabel
     - openpyxl=3.1.0
     - pip:
+        - accelerate
+        - carabiner-tools
         - chemprop
         - datasets
         - deepchem
@@ -25,16 +27,23 @@ dependencies:
         - huggingface_hub
         - jax==0.4.23
         - https://storage.googleapis.com/jax-releases/cuda12/jaxlib-0.4.23+cuda12.cudnn89-cp311-cp311-manylinux2014_x86_64.whl
+        - lightning
         - matplotlib
         - numpy
+        - nvidia-cudnn-cu12
         - optax
         - pandas
+        - peft
         - rdkit
         - safe-mol
+        - git+https://github.com/scbirlab/schemist
         - scikit-learn
+        - selfies
         - splito
         - tensorrt
         - tensorflow
+        - tensorflow_decision_forests
+        - tokenizers
         - torch
         - transformers
         - tqdm
